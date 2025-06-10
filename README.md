@@ -10,7 +10,7 @@ This [Model Context Protocol](https://modelcontextprotocol.io/) server provides 
 
 ### Prerequisites
 - Python 3.7 or higher
-- Secureframe API credentials ([Get them here](#obtaining-api-credentials))
+- Secureframe API credentials ([Get them here](#-obtaining-api-credentials))
 - Claude Desktop, Cursor IDE, or any MCP-compatible tool
 
 ### Installation
