@@ -1,0 +1,54 @@
+[project]
+name = "secureframe-mcp-server"
+version = "1.0.0"
+description = "MCP server for interacting with Secureframe"
+readme = "README.md"
+requires-python = ">=3.7"
+authors = [{ name = "Secureframe", email = "support@secureframe.com" }]
+maintainers = [{ name = "Secureframe", email = "support@secureframe.com" }]
+keywords = ["secureframe", "compliance", "mcp", "security", "automation"]
+license = { text = "MIT" }
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Security",
+    "Topic :: Office/Business",
+]
+dependencies = [
+    "fastmcp>=2.0.0",
+    "httpx>=0.25.0",
+    "pydantic>=2.0.0",
+    "python-dotenv>=1.0.0",
+]
+
+[project.scripts]
+secureframe-mcp = "main:main"
+
+[project.urls]
+Homepage = "https://secureframe.com"
+Repository = "https://github.com/secureframe/secureframe-mcp-server.git"
+Issues = "https://github.com/secureframe/secureframe-mcp-server/issues"
+Documentation = "https://github.com/secureframe/secureframe-mcp-server#readme"
+
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["main"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py37"
+
+[tool.black]
+line-length = 88
+target-version = ['py37']
