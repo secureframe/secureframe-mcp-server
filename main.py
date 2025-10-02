@@ -13,7 +13,7 @@ load_dotenv()
 # Initialize MCP server
 mcp = FastMCP(
     name="Secureframe MCP Server",
-    description="Read-only access to Secureframe compliance platform data"
+    instructions="Read-only access to Secureframe compliance platform data"
 )
 
 # Configuration
