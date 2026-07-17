@@ -1,3 +1,13 @@
+# Deprecated
+
+⚠️ **This repository is no longer maintained.**
+
+Please use the [Secureframe hosted MCP server](https://mcp.secureframe.com/mcp_docs) instead.
+
+No new issues or pull requests will be accepted here.
+
+---
+
 # Secureframe MCP Server
 
 This [Model Context Protocol](https://modelcontextprotocol.io/) server provides read-only access to Secureframe's compliance automation platform for AI assistants like Claude and Cursor. Query security controls, monitor compliance tests, and access audit data across SOC 2, ISO 27001, CMMC, FedRAMP, and other frameworks.
